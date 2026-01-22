@@ -42,13 +42,6 @@ export default function (): JSX.Element {
             Contact
           </NavLink>
           <NavLink
-            to={"contact"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
-          >
-            Contact
-          </NavLink>
-
-          <NavLink
             to={"donate"}
             className={({ isActive }) => {
               return `text-bg-2 ${isActive ? "bg-red-500" : "bg-fg-2"}`;
