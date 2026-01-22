@@ -6,7 +6,7 @@ import { NavLink } from "react-router";
 export default function (): JSX.Element {
   return (
     <>
-      <div className="h-navbar bg-fg-2 flex flex-row items-center justify-between px-20 shadow-black shadow-xl/20 fixed top-0 w-full rounded-b-4xl">
+      <nav className="h-navbar z-40 bg-fg-2 flex flex-row items-center justify-between px-20 shadow-black shadow-xl/20 fixed top-0 w-full rounded-b-4xl">
         <div className="py-2.5 shrink-0">
           <img src={Logo} alt="logo" />
         </div>
@@ -57,7 +57,7 @@ export default function (): JSX.Element {
             Donate
           </NavLink>
         </div>
-      </div>
+      </nav>
       <div className="w-full h-navbar"></div>
     </>
   );
