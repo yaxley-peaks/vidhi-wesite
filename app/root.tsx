@@ -7,9 +7,10 @@ import {
   ScrollRestoration,
 } from "react-router";
 // @ts-ignore
-import type {Route} from "~/+types/route";
+import type { Route } from "~/+types/route";
 import "./app.css";
 import React from "react";
+import Navbar from "~/components/Navbar";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -22,6 +23,10 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Hanuman:wght@100..900&display=swap",
+  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -33,7 +38,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-bg-1">
+        <Navbar />
         {children}
         <ScrollRestoration />
         <Scripts />

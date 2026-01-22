@@ -3,13 +3,29 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+  --spacing-navbar: 170px;
+
+
+  --color-fg-1: #D06224;
+  --color-fg-2: #AE431E;
+  --color-bg-1: #E9C891;
+  --color-bg-2: #FDEE6A;
+  --color-bg-3: #8A8635;
+
+  --font-hanuman: "Hanuman", ui-serif, serif;
+
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
-
+  @apply text-fg-1;
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+h1 {
+  @apply font-hanuman text-fg-2 font-bold text-5xl;
 }
