@@ -5,12 +5,16 @@ import OurStory from "./our-story.png";
 import MahaArti from "./maha-arti.png";
 import Prasad from "./prasad.png";
 import { Link } from "react-router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export function meta({}: Route.MetaArgs) {
   return [{ title: "Home" }, { name: "description", content: "Home page!" }];
 }
 
 export default function Index() {
+  // @ts-ignore
+  // @ts-ignore
   return (
     <>
       <div className="h-10 spacing-div"></div>
@@ -43,9 +47,11 @@ export default function Index() {
             <div className="w-auto">
               <Link
                 className="text-bg-2 bg-fg-1 px-6 py-3 rounded-full w-auto"
-                to={"/"}
+                to={"about-us"}
               >
-                Know more
+                <span>Know more</span>
+                <span className="w-2 inline-block" />
+                <FontAwesomeIcon icon={faArrowRight} />
               </Link>
             </div>
           </div>
