@@ -29,3 +29,13 @@ body {
 h1 {
   @apply font-hanuman text-fg-2 font-bold text-5xl;
 }
+
+.navbar-item {
+  @apply font-bold px-4 py-2
+}
+.navbar-active {
+  @apply text-bg-2 bg-bg-3 rounded-full
+}
+.navbar-inactive {
+  @apply text-bg-1
+}

@@ -13,41 +13,53 @@ export default function (): JSX.Element {
         <div className="flex flex-row justify-center gap-12 text-bg-1 font-bold">
           <NavLink
             to={"/"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
+            className={({ isActive }) =>
+              isActive
+                ? "navbar-item navbar-active"
+                : "navbar-item navbar-inactive"
+            }
           >
             Home
           </NavLink>
           <NavLink
             to={"about-us"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
+            className={({ isActive }) =>
+              isActive
+                ? "navbar-item navbar-active"
+                : "navbar-item navbar-inactive"
+            }
           >
             About us
           </NavLink>
           <NavLink
-            to={"media"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
+            to={"yagna"}
+            className={({ isActive }) =>
+              isActive
+                ? "navbar-item navbar-active"
+                : "navbar-item navbar-inactive"
+            }
           >
-            Media
+            Yagna
           </NavLink>
           <NavLink
             to={"donation"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
+            className={({ isActive }) =>
+              isActive
+                ? "navbar-item navbar-active"
+                : "navbar-item navbar-inactive"
+            }
           >
             Donation
           </NavLink>
           <NavLink
             to={"contact"}
-            className={({ isActive }) => (isActive ? "bg-red-500" : "bg-fg-2")}
+            className={({ isActive }) =>
+              isActive
+                ? "navbar-item navbar-active"
+                : "navbar-item navbar-inactive"
+            }
           >
             Contact
-          </NavLink>
-          <NavLink
-            to={"donate"}
-            className={({ isActive }) => {
-              return `text-bg-2 ${isActive ? "bg-red-500" : "bg-fg-2"}`;
-            }}
-          >
-            Donate
           </NavLink>
         </div>
       </nav>
