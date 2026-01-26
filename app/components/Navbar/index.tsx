@@ -1,6 +1,6 @@
 import type { JSX } from "react";
 
-import Logo from "./logo.png";
+import Logo from "../assets/logo.png";
 import { NavLink } from "react-router";
 
 export default function (): JSX.Element {
