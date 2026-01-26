@@ -46,7 +46,7 @@ export default function Index() {
             </div>
             <div className="w-auto">
               <Link
-                className="text-bg-2 bg-fg-1 px-6 py-3 rounded-full w-auto"
+                className="text-bg-2 bg-bg-3 px-6 py-3 rounded-full w-auto"
                 to={"about-us"}
               >
                 <span>Know more</span>
