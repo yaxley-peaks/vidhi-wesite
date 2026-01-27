@@ -5,6 +5,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import Putresi from "./yagna-img/putresi.png";
+import Maruti from "./yagna-img/maruti.png";
+import Baglamukhi from "./yagna-img/baglamukhi.png";
+import Laghu from "./yagna-img/laghu.png";
+import Lakshmi from "./yagna-img/lakshmi.png";
+import Shiv from "./yagna-img/shiv.png";
+import Vishnu from "./yagna-img/vishnu.png";
+import Chandi from "./yagna-img/chandi.png";
+import Surya from "./yagna-img/surya.png";
+import Vastu from "./yagna-img/vastu.png";
+import Ganesh from "./yagna-img/ganesh.png";
 
 export function meta({}: Route.MetaArgs) {
   return [{ title: "Yagna" }, { name: "description", content: "Yagna" }];
@@ -23,43 +33,43 @@ const yagnas: YagnaSchema[] = [
   },
   {
     name: "Maruti yagna",
-    image: Putresi,
+    image: Maruti,
   },
   {
     name: "Baglamukhi yagna",
-    image: Putresi,
+    image: Baglamukhi,
   },
   {
     name: "Laghu rudra yagna",
-    image: Putresi,
+    image: Laghu,
   },
   {
     name: "Lakshmi yagna",
-    image: Putresi,
+    image: Lakshmi,
   },
   {
     name: "Shiv yagna / Rudhar yagna",
-    image: Putresi,
+    image: Shiv,
   },
   {
     name: "Vishnu yagna",
-    image: Putresi,
+    image: Vishnu,
   },
   {
     name: "Chandi yagna",
-    image: Putresi,
+    image: Chandi,
   },
   {
     name: "Surya yagna",
-    image: Putresi,
+    image: Surya,
   },
   {
     name: "Vastu yagna",
-    image: Putresi,
+    image: Vastu,
   },
   {
     name: "Ganesh yagna",
-    image: Putresi,
+    image: Ganesh,
   },
 ];
 export default function ({}) {
