@@ -1,4 +1,5 @@
 import Image1 from "./about-us-1.png";
+import Image2 from "./about-us-2.png";
 import type { Route } from "../../../.react-router/types/app/+types/root";
 
 export function meta({}: Route.MetaArgs) {
@@ -50,7 +51,7 @@ export default function ({}) {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176 rotate-y-180"
+              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176"
               src={Image1}
               alt={""}
             />
@@ -93,8 +94,8 @@ export default function ({}) {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176 rotate-y-180"
-              src={Image1}
+              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176"
+              src={Image2}
               alt={""}
             />
           </div>

@@ -8,7 +8,7 @@ import {
 export default function ({}) {
   return (
     <>
-      <div className="bg-fg-2 h-navbar flex flex-col mt-15 text-bg-1">
+      <div className="bg-fg-2 h-42.5 flex flex-col mt-15 text-bg-1">
         <div className="spacing-div h-7.5" />
         <hr className="border border-bg-1 mx-10" />
         <div className="spacing-div h-5" />

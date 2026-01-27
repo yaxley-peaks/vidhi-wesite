@@ -13,8 +13,6 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Index() {
-  // @ts-ignore
-  // @ts-ignore
   return (
     <>
       <div className="h-10 spacing-div"></div>
