@@ -16,12 +16,12 @@ export default function Index() {
   return (
     <>
       <div className="h-10 spacing-div"></div>
-      <div className="px-12">
+      <div className="px-12 mx-auto">
         <div className="w-full">
           <img className="mx-auto" src={Hero} alt={"Hero"} />
         </div>
         <div className="h-37.5 spacing-div"></div>
-        <div className="flex flex-row gap-10">
+        <div className="flex flex-row gap-10 mx-auto w-full">
           <div className="flex flex-col gap-10">
             <h1>Our story</h1>
             <div className="flex flex-col gap-5">
