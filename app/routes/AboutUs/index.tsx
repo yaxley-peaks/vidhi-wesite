@@ -9,7 +9,7 @@ export default function ({}) {
   return (
     <>
       <div className="h-10 spacing-div"></div>
-      <div className="px-12">
+      <div className="px-12 mx-auto">
         <div className="flex flex-row gap-12">
           <div className="flex flex-col gap-6">
             <h1>About us</h1>
@@ -58,7 +58,7 @@ export default function ({}) {
           </div>
         </div>
         <div className="h-10 spacing-div"></div>
-        <div className="flex flex-row-reverse gap-12">
+        <div className="flex flex-row-reverse gap-12 justify-end">
           <div className="flex flex-col gap-4">
             <p>
               Seeing the immense suffering of Goddess Sati, Lord Shiva lifted
