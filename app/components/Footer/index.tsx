@@ -8,11 +8,11 @@ import {
 export default function ({}) {
   return (
     <>
-      <div className="bg-fg-2 h-42.5 flex flex-col mt-15 text-bg-1">
-        <div className="spacing-div h-7.5" />
-        <hr className="border border-bg-1 mx-10" />
+      <div className="bg-fg-2 lg:h-42.5 h-auto flex flex-col mt-15 text-bg-1">
+        <div className="spacing-div h-7.5 hidden lg:block" />
+        <hr className="border border-bg-1 mx-10 hidden lg:block" />
         <div className="spacing-div h-5" />
-        <div className="flex flex-row justify-between items-center mx-10">
+        <div className="flex lg:flex-row flex-col gap-4 lg:gap-0 justify-between items-center mx-10">
           <img src={Logo} className="w-25 h-25" alt="Logo" />
           <a
             href="mailto:jagatgurumamasarkar@gmail.com"
@@ -25,6 +25,7 @@ export default function ({}) {
             <FontAwesomeIcon icon={faYoutube} />
             <FontAwesomeIcon icon={faInstagram} />
           </div>
+          <div className="spacing-div h-4 block lg:hidden" />
         </div>
       </div>
     </>

@@ -77,15 +77,15 @@ export default function ({}) {
     <>
       <div className="h-10 spacing-div"></div>
       <div className="px-12">
-        <div className="flex flex-row gap-35 justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:gap-35 gap-8 justify-center items-center">
           <div className="shrink-0">
             <img
-              className="rounded-2xl w-156.25 h-156.25 shrink-0"
+              className="rounded-2xl lg:w-156.25 lg:h-156.25 w-auto h-auto shrink-0"
               src={Hero}
               alt=""
             />
           </div>
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 [&>p]:text-justify">
             <h1>Vastu yagna</h1>
             <p>
               A vastu yagna is a sacred fire ritual performed to purify a new or
@@ -108,7 +108,7 @@ export default function ({}) {
         <div className="spacing-div h-20" />
         <div className="flex flex-col gap-5">
           <h1>Related Yagna</h1>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8">
             {yagnas.map((yagna) => {
               return (
                 <>

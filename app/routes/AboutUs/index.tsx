@@ -10,10 +10,10 @@ export default function ({}) {
     <>
       <div className="h-10 spacing-div"></div>
       <div className="px-12 mx-auto">
-        <div className="flex flex-row gap-12">
+        <div className="flex lg:flex-row flex-col gap-12 justify-center lg:justify-normal items-center">
           <div className="flex flex-col gap-6">
             <h1>About us</h1>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 [&>p]:text-justify">
               <p>
                 Today, we begin this discourse by invoking Shri Veerbhadra
                 Mahadev and Shri Mamadev.
@@ -51,15 +51,15 @@ export default function ({}) {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176"
+              className="border-20 border-b-fg-2 rounded-3xl lg:w-154.75 lg:h-176 h-auto w-auto self-center"
               src={Image1}
               alt={""}
             />
           </div>
         </div>
         <div className="h-10 spacing-div"></div>
-        <div className="flex flex-row-reverse gap-12 justify-end">
-          <div className="flex flex-col gap-4">
+        <div className="flex lg:flex-row-reverse flex-col gap-12 lg:justify-end justify-center  items-center">
+          <div className="flex flex-col gap-4 [&>p]:text-justify">
             <p>
               Seeing the immense suffering of Goddess Sati, Lord Shiva lifted
               her body in His arms and began to wander the universe in deep
@@ -94,7 +94,7 @@ export default function ({}) {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176"
+              className="border-20 border-b-fg-2 rounded-3xl lg:w-154.75 lg:h-176 w-auto h-auto"
               src={Image2}
               alt={""}
             />

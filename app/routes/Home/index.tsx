@@ -21,10 +21,10 @@ export default function Index() {
           <img className="mx-auto" src={Hero} alt={"Hero"} />
         </div>
         <div className="h-37.5 spacing-div"></div>
-        <div className="flex flex-row gap-10 mx-auto w-full">
+        <div className="flex flex-col lg:flex-row gap-10 mx-auto w-full items-center lg:items-start">
           <div className="flex flex-col gap-10">
             <h1>Our story</h1>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 [&>p]:text-justify">
               <p>
                 At first, Mamadev devotees established the Gadi (spiritual seat)
                 in the Ambawadi area of Ahmedabad city, in Saurashtra Society,
@@ -55,7 +55,7 @@ export default function Index() {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl h-176 rotate-y-180"
+              className="border-20 border-b-fg-2 rounded-3xl lg:h-176 h-auto rotate-y-180"
               src={OurStory}
               alt={""}
             />
@@ -64,7 +64,7 @@ export default function Index() {
         <div className="h-37.5 spacing-div"></div>
         <div className="flex flex-col gap-10 items-center">
           <h1>What to visit at temple?</h1>
-          <div className="flex flex-row gap-12.5 justify-center">
+          <div className="flex lg:flex-row flex-col gap-12.5 justify-center">
             <div className="flex flex-col items-center gap-6">
               <img src={MahaArti} alt={""} />
               <h1 className="text-[30px]!">Maha arti</h1>
