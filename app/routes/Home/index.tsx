@@ -55,7 +55,7 @@ export default function Index() {
           </div>
           <div className="shrink-0">
             <img
-              className="border-20 border-b-fg-2 rounded-3xl w-154.75 h-176 rotate-y-180"
+              className="border-20 border-b-fg-2 rounded-3xl h-176 rotate-y-180"
               src={OurStory}
               alt={""}
             />

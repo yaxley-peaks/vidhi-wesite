@@ -96,11 +96,11 @@ export default function ({}) {
             <div className="w-auto">
               <Link
                 className="text-bg-2 bg-bg-3 px-6 py-3 rounded-full w-auto"
-                to={"about-us"}
+                to={""}
               >
-                <span>Know more</span>
+                <span>Book now</span>
                 <span className="w-2 inline-block" />
-                <FontAwesomeIcon icon={faArrowRight} />
+                {/*<FontAwesomeIcon icon={faArrowRight} />*/}
               </Link>
             </div>
           </div>
